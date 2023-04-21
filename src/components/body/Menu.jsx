@@ -1,25 +1,36 @@
 import React, { Component } from "react";
 import DISHES from "../../data/dishes";
 import MenuItem from "./MenuItem";
+import DishDetail from "./DishDetail";
 
 export class Menu extends Component {
   state = {
     dishes: DISHES,
+    selectedDish: null,
+  };
+
+  onDishSelect = (dish) => {
+    this.setState({ selectedDish: dish });
   };
 
   render() {
     const menu = this.state.dishes.map((item) => {
-      return <MenuItem dish={item} key={item.id} />;
+      return (
+        <MenuItem dish={item} key={item.id} DishSelect={this.onDishSelect} />
+      );
     });
+
+    let dishDetail = null;
+    if (this.state.selectedDish) {
+      dishDetail = <DishDetail dish={this.state.selectedDish} />;
+    }
 
     return (
       <div className="container">
         <div className="row">
           <div className="col-6">{menu}</div>
 
-          <div className="col-6">
-            <h1>col 6 Right</h1>
-          </div>
+          <div className="col-6">{dishDetail}</div>
         </div>
       </div>
     );
