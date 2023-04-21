@@ -4,7 +4,7 @@
 - Time: 4/18/2023 -
 - [Github link](https://github.com/qmeng222/PlatePal.git)
 - Description: a restaurant menu app with reviews for each dish, built using React
-- Tech stack: React
+- Tech stack: React, React Bootstrap
 - Project overview:
 
 ---

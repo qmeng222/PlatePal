@@ -1,9 +1,10 @@
 import React from "react";
+import Menu from "./Menu";
 
 const Body = () => {
   return (
     <div>
-      <h3>Body</h3>
+      <Menu />
     </div>
   );
 };
