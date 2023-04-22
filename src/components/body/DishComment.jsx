@@ -5,7 +5,7 @@ import dateFormat from "dateformat";
 const DishComment = (props) => {
   return props.comments.map((comment) => {
     return (
-      <div>
+      <div key={comment.id}>
         <Table striped bordered hover>
           <thead>
             <tr>
