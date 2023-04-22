@@ -15,3 +15,4 @@
 2. start the development server for the React app: `npm start`
 3. install [React-Bootstrapp](https://react-bootstrap.github.io/) and [Bootstrap](https://getbootstrap.com/) packages: `npm install react-bootstrap bootstrap`
 4. install dateformat pakcage: `npm install dateformat`
+5. install React Router DOM: `npm i react-router-dom@6.0.2`
