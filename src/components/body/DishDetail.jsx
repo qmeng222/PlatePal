@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
+import DishComment from "./DishComment";
 
 const DishDetail = (props) => {
   return (
@@ -18,7 +19,10 @@ const DishDetail = (props) => {
           <p>
             <b>Category: {props.dish.category}</b>
           </p>
+
+          <hr></hr>
         </Card.Body>
+        <DishComment comments={props.dish.comments} />
       </Card>
     </div>
   );
