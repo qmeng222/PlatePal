@@ -14,8 +14,8 @@ export class Home extends Component {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h3>Salmon Matsuri</h3>
+            <p>Succulent salmon slices served with a savory vegetable soup.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -26,8 +26,11 @@ export class Home extends Component {
           />
 
           <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3>Grilled Steak</h3>
+            <p>
+              Juicy and flavorful grilled steak served with charred asparagus
+              and sweet cherry tomatoes for a delicious and healthy meal.
+            </p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -38,10 +41,8 @@ export class Home extends Component {
           />
 
           <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
+            <h3>Spring Mix Salad</h3>
+            <p>Spring Greens with ooasted pine nuts and soft-boiled egg.</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
