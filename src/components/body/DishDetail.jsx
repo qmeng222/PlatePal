@@ -22,7 +22,7 @@ const DishDetail = (props) => {
 
           <hr></hr>
         </Card.Body>
-        <DishComment comments={props.dish.comments} />
+        <DishComment comments={props.comments} />
       </Card>
     </div>
   );
