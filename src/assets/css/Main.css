@@ -3,3 +3,14 @@
   text-decoration: none;
   font-size: 18px;
 }
+
+.footer {
+  background-color: #282c34;
+  color: #fff;
+  margin: 0px auto;
+  padding-top: 17px;
+  /* position: relative; */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
