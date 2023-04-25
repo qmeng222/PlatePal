@@ -4,6 +4,10 @@
   font-size: 18px;
 }
 
+.body {
+  margin: 50px;
+}
+
 .footer {
   background-color: #282c34;
   color: #fff;
