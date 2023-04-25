@@ -7,6 +7,8 @@
 - Tech stack: JavaScript, React, React Bootstrap
 - Project overview:
 
+  ![Project overview](/src/assets/image/PlatePal_overview.gif)
+
 ---
 
 ## Project setup:
