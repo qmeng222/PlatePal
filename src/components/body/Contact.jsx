@@ -40,6 +40,8 @@ export class Contact extends Component {
   };
 
   render() {
+    document.title = "PlatePal | Contact";
+
     return (
       <div>
         <Fragment>
